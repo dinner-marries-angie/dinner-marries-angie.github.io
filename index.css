@@ -17,6 +17,10 @@ p {
   color: rgb(84, 71, 65);
 }
 
+strong {
+  font-weight: 700;
+}
+
 h2 {
   font-size: 20px;
 }
