@@ -38,7 +38,7 @@
         사랑하는 두 사람이 새 인생을 시작하려 합니다.<br />
         바쁘시더라도 와주셔서 두 사람의 결혼을 축복해 주시고<br />
         따뜻한 마음으로 격려해 주신다면<br />
-        큰 힘이 되겠습니다.<br />
+        큰 힘이 되겠습니다.<br /><br />
       </p>
       <p>
         <strong>왕혜신</strong>의 아들 <strong>강전혁</strong>
@@ -75,6 +75,8 @@
   <div id="modal" onclick="closeModal()">
     <div id="img-area">
     </div>
+    <img class="arrow left" src="assets/right-arrow.png" onclick="moveImg(-1); event.stopPropagation()" />
+    <img class="arrow right" src="assets/right-arrow.png" onclick="moveImg(1);  event.stopPropagation()" />
   </div>
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a2e6f8cbbe17d0b4b0e7015e0a8c7f60"></script>
   <script type="text/javascript" src="./map.js"></script>
