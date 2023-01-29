@@ -20,7 +20,7 @@ const showMoreImages = (url, idx) => {
 
   imgArea.innerHTML = '';
   const img = document.createElement('div');
-  img.innerHTML = `<img class="gallery-img" src="${url}" alt="결혼사진" />`;
+  img.innerHTML = `<img class="gallery-img" src="${url}" alt="결혼사진" onclick="event.stopPropagation()" />`;
   selectedImg = url;
   imgArea.append(img);
 };
@@ -37,7 +37,7 @@ const moveImg = (direction) => {
   imgArea.innerHTML = '';
 
   const img = document.createElement('div');
-  img.innerHTML = `<img class="gallery-img" src="${nextImg.url}" alt="결혼사진"  />`;
+  img.innerHTML = `<img class="gallery-img" src="${nextImg.url}" alt="결혼사진" onclick="event.stopPropagation()"  />`;
   selectedImg = nextImg.url;
   checkArrow(index + direction);
   imgArea.append(img);
@@ -92,8 +92,6 @@ function checkDirection() {
     if (touchendX < touchstartX) moveImg(1);
     if (touchendX > touchstartX) moveImg(-1);
   }
-
-
 }
 
 document.addEventListener('touchstart', e => {
