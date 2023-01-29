@@ -47,7 +47,7 @@ const moveImg = (direction) => {
 const checkArrow = (idx) => {
   const index = {
     first: 0,
-    last: 39,
+    last: 69,
   };
   if (selectedTag === 'wedding') {
     index.last = 24;
