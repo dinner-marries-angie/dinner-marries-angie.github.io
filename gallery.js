@@ -2,7 +2,7 @@ const gallery = document.getElementById('gallery');
 const modal = document.getElementById('modal');
 const imgArea = document.getElementById('img-area');
 
-const tagList = ['all', 'wedding', 'hodu'];
+const tagList = ['all', 'wedding', 'love', 'hodu'];
 let selectedTag = tagList[0];
 let selectedImg = '';
 
@@ -33,7 +33,8 @@ const closeModal = () => {
 const moveImg = (direction) => {
   const index = imageList.findIndex(i => i.url === selectedImg);
   const nextImg = imageList[index + direction];
-  if (!nextImg) return;
+  if (direction < 0 && document.getElementsByClassName('left hidden')[0]) return;
+  if (direction > 0 && document.getElementsByClassName('right hidden')[0]) return;
   imgArea.innerHTML = '';
 
   const img = document.createElement('div');
@@ -50,9 +51,12 @@ const checkArrow = (idx) => {
   };
   if (selectedTag === 'wedding') {
     index.last = 24;
-  } else if (selectedTag === 'hodu') {
+  } else if (selectedTag === 'love') {
     index.first = 24;
-    index.last = 39;
+    index.last = 51;
+  } else if (selectedTag === 'hodu') {
+    index.first = 51;
+    index.last = 69;
   }
   if (idx === index.first) {
     document.getElementsByClassName('left')[0].classList.add('hidden');

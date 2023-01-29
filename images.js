@@ -95,6 +95,115 @@ const imageList = [
     url: '/assets/imgs/YJ3_2657_2.jpg',
     tag: 'wedding',
   },
+  // 연애
+  {
+    url: '/assets/imgs/a.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/c.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/d.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/e.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/f.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/g.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/h.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/j.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/l.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/m.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/n.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/o.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/p.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/t.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/q (2).jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/rr.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/r.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/13.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/u.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/w.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/x.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/xx.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/z.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/zz.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/y.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/k.jpg',
+    tag: 'love',
+  },
+  {
+    url: '/assets/imgs/s.jpg',
+    tag: 'love',
+  },
   // 호두
   {
     url: '/assets/imgs/1.webp',
