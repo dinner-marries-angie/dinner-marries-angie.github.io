@@ -8,6 +8,7 @@ let bank = '';
 
 const closeMoney = () => {
   bankModal.style.display = 'none';
+  document.querySelector('body').style.overflow = 'auto';
 };
 
 const openMoneyModal = (changeName) => {
