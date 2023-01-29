@@ -101,23 +101,11 @@ const imageList = [
     tag: 'hodu',
   },
   {
-    url: '/assets/imgs/2.webp',
-    tag: 'hodu',
-  },
-  {
-    url: '/assets/imgs/3.webp',
-    tag: 'hodu',
-  },
-  {
     url: '/assets/imgs/4.jpg',
     tag: 'hodu',
   },
   {
     url: '/assets/imgs/6.webp',
-    tag: 'hodu',
-  },
-  {
-    url: '/assets/imgs/13.jpg',
     tag: 'hodu',
   },
   {
@@ -154,6 +142,30 @@ const imageList = [
   },
   {
     url: '/assets/imgs/16.jpg',
+    tag: 'hodu',
+  },
+  {
+    url: '/assets/imgs/17.jpg',
+    tag: 'hodu',
+  },
+  {
+    url: '/assets/imgs/18.jpg',
+    tag: 'hodu',
+  },
+  {
+    url: '/assets/imgs/19.jpg',
+    tag: 'hodu',
+  },
+  {
+    url: '/assets/imgs/20.jpg',
+    tag: 'hodu',
+  },
+  {
+    url: '/assets/imgs/21.jpg',
+    tag: 'hodu',
+  },
+  {
+    url: '/assets/imgs/22.jpg',
     tag: 'hodu',
   },
 ];
