@@ -225,6 +225,13 @@ i {
   rotate: 180deg;
 }
 
+.close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 16px;
+}
+
 .gallery-img {
   width: 100%;
 }

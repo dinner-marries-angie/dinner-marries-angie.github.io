@@ -72,6 +72,7 @@ const checkArrow = (idx) => {
 
 const setImages = () => {
   gallery.innerHTML = '';
+  gallery.scrollTo(0, 0);
 
   imageList.forEach((item, idx) => {
     if (selectedTag === 'all' || item.tag === selectedTag) {

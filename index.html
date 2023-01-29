@@ -74,8 +74,11 @@
   <div id="modal" onclick="closeModal()">
     <div id="img-area">
     </div>
-    <img class="arrow left" src="assets/right-arrow.png" onclick="moveImg(-1); event.stopPropagation()" />
-    <img class="arrow right" src="assets/right-arrow.png" onclick="moveImg(1);  event.stopPropagation()" />
+    <img src="assets/close.png" alt="닫기" class="close" />
+    <img class="arrow left" style="display: none;" src="assets/right-arrow.png"
+      onclick="moveImg(-1); event.stopPropagation()" />
+    <img class="arrow right" style="display: none;" src="assets/right-arrow.png"
+      onclick="moveImg(1);  event.stopPropagation()" />
   </div>
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a2e6f8cbbe17d0b4b0e7015e0a8c7f60"></script>
   <script type="text/javascript" src="./map.js"></script>
