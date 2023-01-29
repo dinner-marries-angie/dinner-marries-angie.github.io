@@ -192,6 +192,8 @@ i {
 #gallery li img {
   width: 100%;
   vertical-align: top;
+  transition: all .5s;
+  animation-name: slide-left;
 }
 
 #modal {
@@ -229,4 +231,14 @@ i {
 
 .hidden {
   visibility: hidden;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
