@@ -317,7 +317,7 @@ i {
   font-weight: bold;
 }
 
-#money-copy {
+.money-copy {
   background-color: #f2e5dd;
   padding: 8px 16px;
   border: none;
